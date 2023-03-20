@@ -78,11 +78,11 @@ const LandingPage = () => {
         <div className="card-content tw-card-content">
           <div className="card-info-wrapper">
             <div className="card-info">
-              <i className="fa-duotone fa-apartment"></i>
+              {/* rounded imamge */}
+              <img className="rounded-full w-40 h-40 object-fit aspect-square grayscale" src="/headshot.jpeg" alt="Leo Paz" />
               <div
-                className="card-info-title ">
-
-                <h4 className="card-subtitle">Hi, I'm</h4>
+                className="card-info-title mt-5">
+                <h4 className="card-subtitle text-center -ml-6">Hi, I'm</h4>
                 <h1 className="card-title from-cyan-400 to-blue-400">Leo.</h1>
               </div>
             </div>
